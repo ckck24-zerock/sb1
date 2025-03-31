@@ -13,4 +13,6 @@ public class Todo2 {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long tno;
 
+  private String title;
+
 }
